@@ -1,6 +1,9 @@
 ## Predicting Whether It Will Rain Tomorrow Using Logistic Regression
 
 We Need to predict Whether it will rain tomorrow or not. We will use the dataset from the [Rain in Australia dataset](https://kaggle.com/jsphyg/weather-dataset-rattle-package) competition on [Kaggle](https://kaggle.com). This dataset contains about 10 years of daily weather observations from numerous Australian weather stations.
+Here's a small sample from the dataset:
+> 
+> ![](https://i.imgur.com/5QNJvir.png)
 
 ### Logistic Regression for Solving Classification Problems
 
