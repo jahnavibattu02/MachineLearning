@@ -1,6 +1,6 @@
 # House Price Prediction with LinearRegression  
 
-In this i'm going to predict the price of a house using information like its location, area, no. of rooms etc. You'll use the dataset from the [House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) competition on [Kaggle](https://kaggle.com).   
+We Need to predict the price of a house using information like its location, area, no. of rooms etc. We will use the dataset from the [House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) competition on [Kaggle](https://kaggle.com).   
 
 We'll follow a step-by-step process to train our model: 
 1. Download and explore the data
