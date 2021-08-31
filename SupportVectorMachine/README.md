@@ -21,9 +21,20 @@ Important Parameters in Kernelized SVC ( Support Vector Classifier)
 
 ## The kernel :
 The kernel, is selected based on the type of data and also the type of transformation. By default, the kernel is Radial Basis Function Kernel (RBF).
+examples of kernels: **linear, nonlinear, polynomial, radial basis function (RBF), and sigmoid.**
 
 ## Gamma :
-This parameter decides how far the influence of a single training example reaches during transformation, which in turn affects how tightly the decision boundaries end up surrounding points in the input space. If there is a small value of gamma, points farther apart are considered similar. So more points are grouped together and have smoother decision boundaries (may be less accurate). Larger values of gamma cause points to be closer together (may cause overfitting).  
+This parameter decides how far the influence of a single training example reaches during transformation, which in turn affects how tightly the decision boundaries end up surrounding points in the input space. If there is a small value of gamma, points farther apart are considered similar. So more points are grouped together and have smoother decision boundaries (may be less accurate). Larger values of gamma cause points to be closer together (may cause overfitting). 
+
 
 ## The 'C' Parameter :
 This parameter controls the amount of regularization applied on the data. Large values of C mean low regularization which in turn causes the training data to fit very well (may cause overfitting). Lower values of C mean higher regularization which causes the model to be more tolerant of errors (may lead to lower accuracy).
+
+### Code : 
+          from sklearn.svm import SVC
+
+          # Building a Support Vector Machine on train data
+          svc_model = SVC(C= 0.1, kernel='linear', gamma= 1)
+          svc_model.fit(X_train, y_train)
+
+          prediction = svc_model.predict(X_test)
