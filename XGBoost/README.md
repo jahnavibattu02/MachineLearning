@@ -45,4 +45,4 @@ Workflow of the project:
 - Training with KFold cross validation and ensembling results. 
 - Configuring the gradient boosting model and tuning hyperparamters. 
 - Making Predictions on test dataset and Evaluation.  
-<img src="https://www.deepnetts.com/blog/wp-content/uploads/2019/02/SupervisedLearning.png" width="400">
+<img src="https://www.deepnetts.com/blog/wp-content/uploads/2019/02/SupervisedLearning.png" width="400">    
